@@ -9,12 +9,15 @@
 
 username = 'jack'
 password = '123'
-_username = input('username')
-_password = input('password')
+_username = input('username：')
+_password = input('password：')
 
+#尝试登陆
 if username == _username and password == _password:
+    #登陆成功
     print('ok')
 else:
+    #登陆失败
     print('error')
 
 answer = 10

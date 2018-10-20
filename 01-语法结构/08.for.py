@@ -27,5 +27,3 @@ print('---------')
 for i in range(1,11):  #或者可以定义从１开始到１１，也是１０个循环
     print('loop',i)
 print('---------')
-for i in 3:
-    print(i)

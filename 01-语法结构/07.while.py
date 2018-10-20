@@ -9,7 +9,7 @@ count = 0
 answer = 10
 
 while True:
-    print(count)
+    print('猜了%i次'%count)
     count += 1
     guess = int(input('猜一个'))
     if guess == answer:
@@ -21,6 +21,7 @@ while True:
         print('猜小了')
 
     if count ==10:
+        print('10次都没猜对，机会用完了')
         break
 print('第二个while')
 count = 0
