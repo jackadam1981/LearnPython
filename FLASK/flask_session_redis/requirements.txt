@@ -7,4 +7,4 @@ MarkupSafe==1.0
 redis==2.10.6
 six==1.11.0
 tornado==5.1.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
